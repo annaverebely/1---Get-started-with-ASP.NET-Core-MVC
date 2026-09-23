@@ -177,5 +177,5 @@ public class MoviesController : Controller
         return _context.Movie.Any(e => e.Id == id);
     }
 
-  
+    //Part 10, examine the Details and Delete methods of an ASP.NET Core app - nincs kód módosítás
 }
